@@ -1,0 +1,17 @@
+Communication Contract: 
+
+To request data from this microservice, the application must open text file run.txt with write access and enter 'run' into run.txt
+An example call of this would be: 
+with open(run.txt, 'w', encoding='utf-8) as file:
+    file.write('run')
+    file.close()
+
+To receive data from this microservice, the application must open the text file workout.txt with read access. 
+An example call of this would be:
+with open(workout.txt, 'r', encoding='utf-8') as file:
+    data = file.read()
+    file.close()
+    
+UML sequence diagram:
+
+    
