@@ -13,5 +13,5 @@ with open(workout.txt, 'r', encoding='utf-8') as file:
     file.close()
     
 UML sequence diagram:
-
+https://drive.google.com/file/d/1QuzDySP8KpZqzr0eSTPunCmch9mOlgRK/view?usp=sharing
     
